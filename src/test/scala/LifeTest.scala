@@ -63,5 +63,4 @@ class NextGenerationTest extends FlatSpec with Matchers {
     NextGeneration(false, 2) should equal (false)
     NextGeneration(false, 4) should equal (false)
   }
-
 }
