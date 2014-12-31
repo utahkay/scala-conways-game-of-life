@@ -18,7 +18,7 @@ object AllCellsAndNeighbors {
 }
 
 object NextGeneration {
-  def apply(isLive: Boolean, numLiveNeighbors: Int): Boolean = (isLive, numLiveNeighbors) match {
+  def apply(isAlive: Boolean, numLiveNeighbors: Int): Boolean = (isAlive, numLiveNeighbors) match {
     case (true, 2) => true
     case (_, 3) => true
     case (_, _) => false
